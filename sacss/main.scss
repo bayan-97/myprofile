@@ -1,3 +1,6 @@
+@import 'config';
+@import 'menu';
+
 $primary-color:#444;
 $secondary-color:#eece1a;
 $show-home-image:true;
@@ -49,7 +52,7 @@ h1,h2,h3{
    &.lg-heading{
        font-size:6rem;
    }
-   &.sm-heading{
+   h2.sm-heading{
     margin-bottom: 2rem ;   
     padding:.2rem 1rem;
     background:regba(lighten($primary-color,2),.5)
@@ -73,7 +76,7 @@ header{
 main{
     padding: 4rem;
     height: 100%;
-    &.icons{
+     .icons{
 margin-top: 1rem;
    a{
        padding:0.4rem;
