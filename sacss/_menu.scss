@@ -15,7 +15,7 @@
         width:28px;
         height: 3px;
         margin:0px 0px 5px 0px;
-        background:#fff;
+        background:set-text-color($primary-color);
         @include easeOut;
 
 
@@ -49,7 +49,7 @@
     position: fixed;
     top:0;
     width: 100%;
-    opacity:0.9 ;
+    opacity:.99;
     visibility:hidden ;
     &.show{
         visibility: visible;
@@ -109,12 +109,12 @@
     .nav-link {
         display: inline-block;
         position: relative;
-        font-size: 30px;
+        font-size: 20px;
         text-transform: uppercase;
       
         padding: 1rem 0;
         font-weight:300 ;
-        color: #fff;
+        color:set-text-color($primary-color);
         text-decoration:none ;
         @include easeOut;
         &:hover{

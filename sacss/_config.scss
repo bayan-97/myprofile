@@ -1,0 +1,41 @@
+
+@function set-text-color($color){
+    @if(lightness($color)>40){
+      @return #000;
+
+    }@else{
+        @return #fff;
+    }
+}
+
+
+
+// medea query mixins(responseive)
+
+@mixin  mediasm {
+
+    @media screen and (max-width:500px){
+     @content;   
+    }
+}
+
+@mixin  mediamd  {
+
+    @media screen and (max-width:768px){
+     @content;   
+    }
+}
+
+@mixin  medialg{
+
+    @media screen and (min-width:769) and (max-width:1170px){
+     @content;   
+    }
+}
+
+@mixin  mediaXl {
+
+    @media screen and (min-width:1171px){
+     @content;   
+    }
+}
