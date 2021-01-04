@@ -55,7 +55,8 @@ h1,h2,h3{
    &.lg-heading{
        font-size:6rem;
    }
-   h2.sm-heading{
+&.sm-heading{
+       margin-left: 8px;
     margin-bottom: 2rem ;   
     padding:.2rem 1rem;
     background:regba(lighten($primary-color,2),.5)
@@ -81,6 +82,8 @@ main{
     padding: 4rem;
    min-height: calc(100vh - 7vh);
      .icons{
+        margin-left: 21px;
+    
 margin-top: 1rem;
    a{
        padding:0.4rem;
