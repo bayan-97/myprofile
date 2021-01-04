@@ -115,6 +115,7 @@ body {
 
 h1, h2, h3 {
   margin: 0;
+  padding-left: 20px;
   font-weight: 400; }
   h1.lg-heading, h2.lg-heading, h3.lg-heading {
     font-size: 6rem; }
